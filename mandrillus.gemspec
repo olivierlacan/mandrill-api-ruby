@@ -9,5 +9,5 @@ Gem::Specification.new do |s|
     s.files = ['lib/mandrill.rb', 'lib/mandrill/api.rb', 'lib/mandrill/errors.rb']
     s.homepage = 'https://github.com/olivierlacan/mandrillus/'
     s.add_dependency 'json', '>= 1.7.7', '< 3.0'
-    s.add_dependency 'excon', '>= 0.16.0', '< 1.0'
+    s.add_dependency 'excon'
 end
